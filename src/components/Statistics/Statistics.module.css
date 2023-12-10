@@ -1,0 +1,43 @@
+.statistics {
+  width: 500px;
+  margin-top: 50px;
+  border: 5px;
+  border: 2px solid #000000;
+  background-color: white;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 400;
+  color: #505050;
+  height: 50px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  border-top: 2px solid #000000;
+  background-color: rgba(45, 77, 140, 0.376);
+}
+
+.item {
+  font-size: 28px;
+  padding: 15px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-right: 1px solid #000000;
+}
+
+.item:last-child {
+  border: none;
+}
